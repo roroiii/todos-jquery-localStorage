@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .wallpaper {
+      max-width: 600px;
+      margin: 64px auto;
+      border: 1px solid #333;
+      padding: 12px 16px;
+      text-align: center;
+    }
+
+    .todolist {
+      margin-top: 16px;
+    }
+
+    .todo {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #333;
+      padding: 12px;
+    }
+
+    .todo-left,
+    .todo-right {
+      display: flex;
+    }
+
+    .todo-state,
+    .todo-toggle {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wallpaper">
+    <h1>TODO LIST</h1>
+    <input type="text" name="todo-value" class="todo-value">
+    <button class="submit">新增</button>
+    <div class="todolist">
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="./todos.js"></script>
